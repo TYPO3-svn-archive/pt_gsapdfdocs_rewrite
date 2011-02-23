@@ -1,0 +1,10 @@
+
+<div>
+	<ul>
+	{foreach key=entryId item=entry from=$stateList}
+    	<li>{$entry.relatedErpDocNo}</li>
+  	{/foreach}
+	</ul>
+	
+	<div>Rewrited <b>{$totalCount}</b> invoices.</div>
+</div>
